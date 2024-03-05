@@ -1,0 +1,8 @@
+create table if not exists role(
+id integer not null,
+role_name varchar(255) null,
+is_active char null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint role_pk primary key(id));
